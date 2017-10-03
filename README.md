@@ -2,6 +2,7 @@
 
 This course is my first venture into Machine Learning.
 
+# Course Outline
 1. Welcome to Machine Learning
 2. Naive Bayes
 3. SVM
