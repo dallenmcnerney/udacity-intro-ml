@@ -56,5 +56,5 @@ def output_image(name, format, bytes):
     data = {}
     data['name'] = name
     data['format'] = format
-    data['bytes'] = base64.encodestring(bytes)
-    print image_start+json.dumps(data)+image_end
+    data['bytes'] = base64.encodestring(bytes).decode('utf-8')
+    return image_start+json.dumps(data)+image_end
